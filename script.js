@@ -25,7 +25,7 @@ function toggleDarkLightMode() {
     imageMode(`${choice}`);
  }
 
-
+ 
 //Switch Theme Dynamically
 function switchTheme(event) {
     event.target.checked ? choice = 'dark' : choice = 'light';
